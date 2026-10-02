@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DEPORTES Y DE MÁS</title>
+
+    <!-- TU CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     ENCABEZADO
+     ========================= -->
+
+<header>
+
+    <div class="header-container">
+
+        <div class="logo">
+            DEPORTES Y DE MÁS
+        </div>
+
+        <img src="img/Deportes y de mas.jpg"
+             alt="Logo Deportes y de Más">
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contactos.html">
+                        Contactos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="servicios.html">
+                        Servicios
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================
+     CARRUSEL
+     ========================= -->
+
+<div class="prueba">
+
+    <div class="wrapper">
+
+        <div class="carousel owl-carousel owl-theme">
+
+
+            <!-- PASTELERÍA -->
+
+            <div class="card card-1">
+
+                <img src="img/pasteleria1.jpg"
+                     alt="Pastelería">
+
+            </div>
+
+
+            <!-- FÚTBOL -->
+
+            <div class="card card-2">
+
+                <img src="img/fut1.jpg"
+                     alt="Clases de fútbol">
+
+            </div>
+
+
+            <!-- CYBER -->
+
+            <div class="card card-3">
+
+                <img src="img/cyber1.jpg"
+                     alt="Cyber">
+
+            </div>
+
+
+            <!-- MODA -->
+
+            <div class="card card-4">
+
+                <img src="img/moda1.jpg"
+                     alt="Moda">
+
+            </div>
+
+
+            <!-- BOXEO -->
+
+            <div class="card card-3">
+
+                <img src="img/boxeo1.jpg"
+                     alt="Clases de boxeo">
+
+            </div>
+
+
+            <!-- MANUALIDADES -->
+
+            <div class="card card-4">
+
+                <img src="img/manualidades1.jpg"
+                     alt="Manualidades">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================
+     FOOTER
+     ========================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <p>
+            &copy; 2026 DEPORTES Y DE MÁS
+        </p>
+
+        <p>
+            Pastelería | Fútbol | Cyber | Moda | Boxeo | Manualidades
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+     ========================= -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+<script>
+
+$(document).ready(function () {
+
+    $(".carousel").owlCarousel({
+
+        margin: 10,
+
+        loop: true,
+
+        autoplay: true,
+
+        autoplayTimeout: 3000,
+
+        autoplayHoverPause: true,
+
+        responsive: {
+
+            0: {
+                items: 1,
+                nav: false
+            },
+
+            600: {
+                items: 2,
+                nav: false
+            },
+
+            1000: {
+                items: 3,
+                nav: false
+            }
+
+        }
+
+    });
+
+});
+
+</script>
+
+
+</body>
+
+</html>
